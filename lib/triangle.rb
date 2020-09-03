@@ -20,5 +20,6 @@ end
     self.kind == scalene
 end
 end
+end
 
  
