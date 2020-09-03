@@ -15,16 +15,14 @@ def kind
         puts error.message
         end 
    
-   else if side_1 == side_2 && side_1 == side_3
+   elsif side_1 == side_2 && side_1 == side_3
     self.kind = :equilateral
-  else if side_1 == side_2 || side_1 == side_3 || side_2 == side_3
+  elsif side_1 == side_2 || side_1 == side_3 || side_2 == side_3
     self.kind = :isosceles
   else
     self.kind = :scalene
        end
      end
-   end
- end 
 end
  class TriangleError < StandardError
     def message 
