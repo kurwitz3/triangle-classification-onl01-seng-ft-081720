@@ -14,11 +14,11 @@ def kind
       puts error.message
 end 
   else if side_1 == side_2 && side_1 == side_3
-    self.kind == equilateral
+    self == equilateral
   else if side_1 == side_2 || side_1 == side_3 || side_2 == side_3
-    self.kind == isosceles
+    self == isosceles
   else
-    self.kind == scalene
+    self == scalene
       end
     end
   end
