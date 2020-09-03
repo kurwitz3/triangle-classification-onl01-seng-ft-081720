@@ -18,7 +18,7 @@ else if side_1 == side_2 && side_1 == side_3
   self.kind == isosceles
   else
   self.kind == scalene
-   end
+   
   end
 end
 
