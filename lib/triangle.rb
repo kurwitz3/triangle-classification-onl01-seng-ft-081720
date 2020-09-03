@@ -19,8 +19,5 @@ end
   else
     self.kind == scalene
 end
-end
-end
-end
 
  
